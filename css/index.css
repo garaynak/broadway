@@ -1,0 +1,27 @@
+h1,
+h2,
+p {
+font-family: arial;
+color: white;
+text-align: center;
+}
+
+.hero {
+    background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
+      font-weight: bold;
+      color: white;
+      background-repeat: no-repeat;
+}
+
+.hero p{
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+
+body {
+  padding:50px;
+}
