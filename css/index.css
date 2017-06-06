@@ -1,9 +1,17 @@
 h1,
 h2,
+h4,
 p {
 font-family: arial;
-color: white;
 text-align: center;
+}
+
+p {
+  font-size: 14px;
+}
+
+h2 {
+  padding-bottom: 5px;
 }
 
 .hero {
@@ -17,11 +25,36 @@ text-align: center;
   text-decoration: underline;
 }
 
-h1 {
+.hero h1{
   font-size: 80px;
+  color: white;
 }
 
+.process h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+}
+
+img {
+  display:block;
+  margin: 0 auto;
+}
+
+.process h2 {
+  font-size: 22px;
+  font-weight: bold;
+  color: black;
+}
 
 body {
   padding:50px;
+}
+
+.divider {
+    background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
+      font-weight: bold;
+      color: white;
+      background-repeat: no-repeat;
+      font-size: 16px;
 }
